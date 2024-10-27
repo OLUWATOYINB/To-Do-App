@@ -96,3 +96,47 @@ body.dark-mode {
   background-color: #121212;
   color: white;
 }
+
+/* ---------------mobile Responsiveness---------- */
+
+@media (max-width:873px){
+  .main-container{
+    position: relative;
+    top: 5%;
+    left: 2%;
+    padding: 10px;
+  }
+}
+
+@media (max-width:619px){
+  .main-container{
+    top: 5%;
+    left: 2%;
+    padding: 5px;
+  }
+}
+
+@media (max-width:623px){
+  .main-container{
+    top: 5%;
+    left: 2%;
+    width: 100%;
+    padding: 5px;
+  }
+}
+
+@media (max-width:425px){
+  .main-container{
+    top: 5%;
+    left: 2%;
+    width: 100%;
+  }
+}
+
+@media (max-width:320px){
+  .main-container{
+    top: 5%;
+    left: 2%;
+    width: 100%;
+  }
+}
